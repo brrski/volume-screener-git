@@ -15,8 +15,8 @@ to the 20-day average.
 # --- Sidebar: User Inputs ---
 st.sidebar.header("Settings")
 
-# Default list from your request (Corrected CRWV to CRWD)
-default_tickers = "AMD, MSFT, AAPL, CAT, NVDA, CRWD, CRWV, NBIS, IREN, AMZN, APLD, NFLX, TSM, SNDK, MU, TSLA, INTC, GOOG, META, AVGO"
+# Default list from your request 
+default_tickers = "AMD, NVDA, CRWV, APLD, SNDK, MU, TSLA, GOOG, META, SPY"
 ticker_input = st.sidebar.text_area("Ticker List (comma separated)", default_tickers, height=150)
 
 # Parse tickers
