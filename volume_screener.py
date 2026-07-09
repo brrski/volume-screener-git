@@ -16,7 +16,7 @@ to the 20-day average.
 st.sidebar.header("Settings")
 
 # Default list from your request 
-default_tickers = "RXT, RBRK, NOK, PATH, CBRS, RKLB, SOFI, META, GOOGL, MU, NVDA, MSFT, AAPL, AMD, AMZN, SNDK, MRAM, GSIT, CRWV, IREN, WULF, VNET, AMBA, FLEX, BEP, TSLA, ONDS, RKLB, NBIS, ARM, MRVL, SPY, QQQ, IWM, COHR, LITE, SNPS, CLS, ALAB"
+default_tickers = "RXT, RBRK, NOK, PATH, CBRS, SPCX, SOFI, META, GOOGL, MU, NVDA, MSFT, AAPL, AMD, AMZN, SNDK, MRAM, GSIT, CRWV, IREN, WULF, VNET, AMBA, FLEX, BEP, TSLA, ONDS, RKLB, NBIS, ARM, MRVL, SPY, QQQ, IWM, COHR, LITE, SNPS, CLS, ALAB"
 ticker_input = st.sidebar.text_area("Ticker List (comma separated)", default_tickers, height=150)
 
 # Parse tickers
